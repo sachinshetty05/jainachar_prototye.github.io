@@ -120,7 +120,7 @@ div.slider img{
    #banners, #banner_slider, #slider {
     height: 26rem;
   }
-  ..ad-block-1, .ad-block-2{
+  .ad-block-1, .ad-block-2{
     height: 26rem;
   }
 }
@@ -128,10 +128,10 @@ div.slider img{
 /* Large devices (laptops/desktops, 980px and up) */
 @media only screen and (min-width: 980px) {
    #banners, #banner_slider {
-    height: 28rem;
+    height: 30rem;
   }
   .ad-block-1, .ad-block-2{
-    height: 28rem;
+    height: 30rem;
   }
 }
 
