@@ -118,10 +118,10 @@ div.slider img{
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
    #banners, #banner_slider, #slider {
-    height: 26rem;
+    height: 28rem;
   }
   .ad-block-1, .ad-block-2{
-    height: 26rem;
+    height: 28rem;
   }
 }
 
