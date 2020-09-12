@@ -182,16 +182,6 @@ div.slider img{
 }
 
 /* Desktops and laptops ----------- */
-@media only screen and (min-width: 992px){
-  #banners, #banner_slider, #slider {
-    height: 28rem;
-  }
-  .ad-block-1, .ad-block-2{
-    height: 28rem;
-  }
-}
-
-/* Desktops and laptops ----------- */
 @media only screen and (min-width : 1224px) {
   #banners, #banner_slider, #slider {
     height: 34rem;
@@ -203,7 +193,7 @@ div.slider img{
 
 /* Large screens ----------- */
 @media only screen and (min-width : 1824px) {
-   #banners, #banner_slider, #slider {
+  #banners, #banner_slider, #slider {
     height: 36rem;
   }
   .ad-block-1, .ad-block-2{
