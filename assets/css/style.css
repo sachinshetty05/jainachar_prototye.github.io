@@ -85,8 +85,8 @@ div.slider img{
   border: 1px solid #ff9500;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 768px) {
    #banners, #banner_slider, #slider {
    	height: 6rem;
    }
@@ -96,7 +96,7 @@ div.slider img{
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     #banners, #banner_slider, #slider {
    	height: 12rem;
    }
@@ -106,32 +106,22 @@ div.slider img{
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
    #banners, #banner_slider, #slider {
     height: 28rem;
   }
   .ad-block-1, .ad-block-2{
     height: 28rem;
-  }
-}
-
-/* Large devices (laptops/desktops, 980px and up) */
-@media only screen and (min-width: 980px) {
-   #banners, #banner_slider {
-    height: 30rem;
-  }
-  .ad-block-1, .ad-block-2{
-    height: 30rem;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
    #banners, #banner_slider, #slider {
-    height: 40rem;
+    height: 36rem;
   }
   .ad-block-1, .ad-block-2{
-    height: 40rem;
+    height: 36rem;
   }
 }
 
