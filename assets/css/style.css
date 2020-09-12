@@ -119,12 +119,12 @@ div.slider img{
 
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1021px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     #banners, #banner_slider, #slider {
-   	height: 34rem;
+   	height: 32rem;
    }
    .ad-block-1, .ad-block-2{
-    	height: 34rem;
+    	height: 32rem;
   }
 }
  
