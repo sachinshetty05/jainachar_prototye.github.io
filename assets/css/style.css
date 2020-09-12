@@ -100,20 +100,20 @@ div.slider img{
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
    #banners, #banner_slider, #slider {
-   	height: 10rem;
+   	height: 30rem;
    }
    .ad-block-1, .ad-block-2{
-    	height: 10rem;
+    	height: 30rem;
   }
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
   #banners, #banner_slider, #slider {
-   	height: 8rem;
+   	height: 18rem;
    }
    .ad-block-1, .ad-block-2{
-    	height: 8rem;
+    	height: 18rem;
   }
 }
 
