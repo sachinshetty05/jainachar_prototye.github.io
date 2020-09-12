@@ -91,7 +91,7 @@ div.slider img{
    	height: 6rem;
    }
    .ad-block-1, .ad-block-2{
-    height: 6rem;
+    	height: 6rem;
   }
 }
 
@@ -125,7 +125,15 @@ div.slider img{
   }
 }
 
-
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1366px) {
+   #banners, #banner_slider, #slider {
+    height: 40rem;
+  }
+  .ad-block-1, .ad-block-2{
+    height: 40rem;
+  }
+}
 
 /*--------------------------------------------------------------
 # Back to top button
