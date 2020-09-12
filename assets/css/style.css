@@ -121,20 +121,20 @@ div.slider img{
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     #banners, #banner_slider, #slider {
-   	height: 30rem;
+   	height: 28rem;
    }
    .ad-block-1, .ad-block-2{
-    	height: 30rem;
+    	height: 28rem;
   }
 }
  
 /* iPads (landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
    #banners, #banner_slider, #slider {
-   	height: 30rem;
+   	height: 28rem;
    }
    .ad-block-1, .ad-block-2{
-    	height: 30rem;
+    	height: 28rem;
   }
 }
 
@@ -142,10 +142,10 @@ div.slider img{
 /* iPads (portrait) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
    #banners, #banner_slider, #slider {
-   	height: 30rem;
+   	height: 28rem;
    }
    .ad-block-1, .ad-block-2{
-    	height: 30rem;
+    	height: 28rem;
   }
 }
 
@@ -158,8 +158,6 @@ div.slider img{
     	height: 12rem;
   }
 }
-
-
 
 * iPhone 5 (landscape)----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
