@@ -85,19 +85,63 @@ div.slider img{
   border: 1px solid #ff9500;
 }
 
-/* Extra small devices (phones, 768px and down) */
-@media only screen and (max-width: 768px) {
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
    #banners, #banner_slider, #slider {
-   	height: 6rem;
+   	height: 8rem;
    }
    .ad-block-1, .ad-block-2{
-    	height: 6rem;
+    	height: 8rem;
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+   #banners, #banner_slider, #slider {
+   	height: 10rem;
+   }
+   .ad-block-1, .ad-block-2{
+    	height: 10rem;
+  }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+  #banners, #banner_slider, #slider {
+   	height: 8rem;
+   }
+   .ad-block-1, .ad-block-2{
+    	height: 8rem;
+  }
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     #banners, #banner_slider, #slider {
+   	height: 8rem;
+   }
+   .ad-block-1, .ad-block-2{
+    	height: 8rem;
+  }
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+   #banners, #banner_slider, #slider {
+   	height: 8rem;
+   }
+   .ad-block-1, .ad-block-2{
+    	height: 8rem;
+  }
+}
+
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+   #banners, #banner_slider, #slider {
    	height: 12rem;
    }
    .ad-block-1, .ad-block-2{
@@ -105,18 +149,51 @@ div.slider img{
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
    #banners, #banner_slider, #slider {
-    height: 28rem;
-  }
-  .ad-block-1, .ad-block-2{
-    height: 28rem;
+   	height: 12rem;
+   }
+   .ad-block-1, .ad-block-2{
+    	height: 12rem;
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+
+
+* iPhone 5 (landscape)----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+   #banners, #banner_slider, #slider {
+   	height: 12rem;
+   }
+   .ad-block-1, .ad-block-2{
+    	height: 12rem;
+  }
+}
+ 
+/* iPhone 5 (portrait)----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+   #banners, #banner_slider, #slider {
+   	height: 12rem;
+   }
+   .ad-block-1, .ad-block-2{
+    	height: 12rem;
+  }
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+  #banners, #banner_slider, #slider {
+    height: 34rem;
+  }
+  .ad-block-1, .ad-block-2{
+    height: 34rem;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
    #banners, #banner_slider, #slider {
     height: 36rem;
   }
@@ -125,15 +202,6 @@ div.slider img{
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1366px) {
-   #banners, #banner_slider, #slider {
-    height: 44rem;
-  }
-  .ad-block-1, .ad-block-2{
-    height: 44rem;
-  }
-}
 
 /*--------------------------------------------------------------
 # Back to top button
