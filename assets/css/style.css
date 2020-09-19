@@ -89,10 +89,10 @@ div.slider img{
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     #banners, #banner_slider, #slider {
-   	height: 32rem;
+   	height: 36rem;
    }
    .ad-block-1, .ad-block-2{
-    	height: 32rem;
+    	height: 36rem;
   }
 }
  
@@ -110,20 +110,20 @@ div.slider img{
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
    #banners, #banner_slider, #slider {
-    height: 26rem;
+    height: 30rem;
   }
   .ad-block-1, .ad-block-2{
-    height: 26rem;
+    height: 30rem;
   }
 }
 
 /* iPads (landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
    #banners, #banner_slider, #slider {
-   	height: 28rem;
+   	height: 38rem;
    }
    .ad-block-1, .ad-block-2{
-    	height: 28rem;
+    	height: 38rem;
   }
 }
 
