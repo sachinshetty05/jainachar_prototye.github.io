@@ -96,26 +96,6 @@ div.slider img{
   }
 }
  
-/* iPads (landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-   #banners, #banner_slider, #slider {
-   	height: 36rem;
-   }
-   .ad-block-1, .ad-block-2{
-    	height: 36rem;
-  }
-}
-
-
-/* iPads (portrait) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-   #banners, #banner_slider, #slider {
-   	height: 36rem;
-   }
-   .ad-block-1, .ad-block-2{
-    	height: 36rem;
-  }
-}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -130,22 +110,52 @@ div.slider img{
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
    #banners, #banner_slider, #slider {
-    height: 28rem;
+    height: 30rem;
   }
   .ad-block-1, .ad-block-2{
-    height: 28rem;
+    height: 30rem;
   }
 }
 
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+   #banners, #banner_slider, #slider {
+   	height: 38rem;
+   }
+   .ad-block-1, .ad-block-2{
+    	height: 38rem;
+  }
+}
+
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+   #banners, #banner_slider, #slider {
+   	height: 28rem;
+   }
+   .ad-block-1, .ad-block-2{
+    	height: 28rem;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1024px) {
+  #banners, #banner_slider, #slider {
+    height: 30rem;
+  }
+  .ad-block-1, .ad-block-2{
+    height: 30rem;
+  }
+}
 
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : 1224px) {
   #banners, #banner_slider, #slider {
-    height: 34rem;
+    height: 36rem;
   }
   .ad-block-1, .ad-block-2{
-    height: 34rem;
+    height: 36rem;
   }
 }
 
