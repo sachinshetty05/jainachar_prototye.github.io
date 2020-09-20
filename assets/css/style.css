@@ -571,7 +571,7 @@ div.slider img{
   background-size: cover;
   position: relative;
   padding: 0;
-  left: 15px;
+  left: 0px;
 }
 
 #hero:before {
@@ -623,6 +623,7 @@ div.slider img{
   color: #fff;
   background: #ff4a17;
   border: 2px solid #ff4a17;
+  left: 50%;
 }
 
 #hero .btn-get-started:hover {
