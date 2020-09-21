@@ -157,8 +157,11 @@ div.slider img{
   .ad-block-1, .ad-block-2{
     height: 34rem;
   }
-
-  
+   .hero-container{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 560em;
+  }
 }
 
 /* Large screens ----------- */
@@ -169,7 +172,7 @@ div.slider img{
   .ad-block-1, .ad-block-2{
     height: 50rem;
   }
-  #hero-container{
+  .hero-container{
     margin-left: 100px;
     margin-right: 100px;
     width: 560em;
