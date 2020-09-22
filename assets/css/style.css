@@ -162,10 +162,12 @@ div.slider img{
 /* Large screens ----------- */
 @media only screen and (min-width : 1824px) {
   #banners, #banner_slider, #slider {
-    height: 50rem;
+    height: 60rem;
+    width: 20em
   }
   .ad-block-1, .ad-block-2{
-    height: 50rem;
+    height: 60rem;
+    width: 20em
   }
   .hero-container{
     width: 160em;
